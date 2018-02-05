@@ -1,5 +1,5 @@
 class Person:
-	moods=('happy','tired','lazy')
+	moods=""
 	def __init__(self,name):
 		self.name=name
 		self.money=0
@@ -99,14 +99,6 @@ class Car:
 			distance-=self.fuelRate
 			self.fuelRate=0
 			self.stop(distance)
-
-
-	def stop(self,remaining):
-		self.velocity=0
-		if(remaining==0):
-			print("7amdella")
-		else:
-			print("Ya mosahhel.. fadel",remaining,"KM")
 class Office:
 	def __init__(self,name):
 		self.name=name
